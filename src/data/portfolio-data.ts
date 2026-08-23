@@ -20,7 +20,7 @@ export const personalInfo: PersonalInfo = {
     location: { city: "Gabrovo", country: "Bulgaria" },
     website: "sarahmartinez.com",
     email: "ttsaryanski@gmail.com",
-    avatar: "/me.jpg",
+    avatar: "{`${import.meta.env.BASE_URL}/me.jpg`}",
     bio: "I'm a product leader with over 10 years of experience building and scaling products that solve real user problems. My approach combines strategic thinking with deep customer empathy, bridging the gap between business objectives and user needs to deliver products that drive meaningful impact.\n\nCurrently leading product at a fast-growing tech startup, I've launched products used by millions of users across web and mobile platforms. I'm passionate about product strategy, data-driven decision making, and mentoring the next generation of product managers.\n\nWhen I'm not building products, you'll find me speaking at conferences, writing about product management, or advising early-stage startups. I believe in giving back to the product community that has given me so much.",
     skills: "Product Strategy, User Research, Data Analysis, A/B Testing, Roadmap Planning, Stakeholder Management, Agile, SQL, Analytics, Customer Discovery, OKRs, Go-to-Market Strategy, Team Leadership, Cross-functional Collaboration",
 };

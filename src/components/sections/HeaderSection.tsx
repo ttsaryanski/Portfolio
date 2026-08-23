@@ -28,7 +28,7 @@ export default function HeaderSection() {
 
                     <div className="flex justify-center">
                         <img
-                            src="/me.jpg"
+                            src={personalInfo.avatar}
                             alt={personalInfo.name}
                             className="w-full max-w-[52rem] h-auto aspect-[52/60] object-cover rounded-t-[160px]"
                         />
