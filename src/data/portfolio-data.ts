@@ -18,10 +18,10 @@ export const personalInfo: PersonalInfo = {
     name: "Tsvetan Tsaryanski",
     title: "JavaScript FullStack Developer",
     location: { city: "Gabrovo", country: "Bulgaria" },
-    website: "sarahmartinez.com",
+    website: "ttsaryanski.github.io/Portfolio/",
     email: "ttsaryanski@gmail.com",
     avatar: "./me.jpg",
-    bio: "I'm a product leader with over 10 years of experience building and scaling products that solve real user problems. My approach combines strategic thinking with deep customer empathy, bridging the gap between business objectives and user needs to deliver products that drive meaningful impact.\n\nCurrently leading product at a fast-growing tech startup, I've launched products used by millions of users across web and mobile platforms. I'm passionate about product strategy, data-driven decision making, and mentoring the next generation of product managers.\n\nWhen I'm not building products, you'll find me speaking at conferences, writing about product management, or advising early-stage startups. I believe in giving back to the product community that has given me so much.",
+    bio: "I am developing my career as a Full-Stack Developer, with a strong focus on building modern web applications and continuously expanding my technical skills. I work with JavaScript and TypeScript, React, Next.js, and Node.js, with experience in both frontend and backend development, databases, REST APIs, and authentication. \n Alongside application development, I am expanding my knowledge and practical skills in DevOps and infrastructure. I work with Docker, Terraform, Ansible, and CI/CD, and in my recent projects I have also been working with deployment, monitoring, and observability using tools such as Prometheus and Grafana. I am interested in the entire lifecycle of an application — from development and testing to deployment, monitoring, and maintenance. \n My goal is to continue growing as a Full-Stack Developer while building a strong foundation in DevOps and infrastructure.",
     skills: "Product Strategy, User Research, Data Analysis, A/B Testing, Roadmap Planning, Stakeholder Management, Agile, SQL, Analytics, Customer Discovery, OKRs, Go-to-Market Strategy, Team Leadership, Cross-functional Collaboration",
 };
 
