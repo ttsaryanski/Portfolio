@@ -22,7 +22,7 @@ export const personalInfo: PersonalInfo = {
     email: "ttsaryanski@gmail.com",
     avatar: "./me.jpg",
     bio: "I am developing my career as a Full-Stack Developer, with a strong focus on building modern web applications and continuously expanding my technical skills. I work with JavaScript and TypeScript, React, Next.js, and Node.js, with experience in both frontend and backend development, databases, REST APIs, and authentication. \n Alongside application development, I am expanding my knowledge and practical skills in DevOps and infrastructure. I work with Docker, Terraform, Ansible, and CI/CD, and in my recent projects I have also been working with deployment, monitoring, and observability using tools such as Prometheus and Grafana. I am interested in the entire lifecycle of an application — from development and testing to deployment, monitoring, and maintenance. \n My goal is to continue growing as a Full-Stack Developer while building a strong foundation in DevOps and infrastructure.",
-    skills: "Product Strategy, User Research, Data Analysis, A/B Testing, Roadmap Planning, Stakeholder Management, Agile, SQL, Analytics, Customer Discovery, OKRs, Go-to-Market Strategy, Team Leadership, Cross-functional Collaboration",
+    skills: "JavaScript, TypeScript, React, Next.js, Node.js, Express.js, REST APIs, PostgreSQL, MongoDB, Prisma, Git, GitHub, Docker, Terraform, Ansible, CI/CD, GitHub Actions, Prometheus, Grafana, Linux, AWS, Azure, Google Cloud, Full-Stack Development, DevOps, Problem Solving, Team Collaboration, Communication, Continuous Learning",
 };
 
 export const experience: Experience[] = [
