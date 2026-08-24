@@ -71,7 +71,7 @@ export const writing: Writing[] = [
         featured: true,
     },
     {
-        id: "write-22",
+        id: "write-2",
         title: "The Future of Design Tools: AI and Automation",
         publication: "UX Collective",
         date: "2023-11",
@@ -200,21 +200,24 @@ export const projects: Project[] = [
 export const education: Education[] = [
     {
         id: "edu-1",
-        institution: "University of California, Berkeley",
-        degree: "Bachelor of Arts",
-        field: "Interactive Media Design",
-        startYear: "2011",
-        endYear: "2015",
-        location: "Berkeley, CA",
-        details: "Concentration in Human-Computer Interaction",
+        institution: "Software University",
+        degree: "Certificate",
+        field: "Front-End Developer with JavaScript",
+        startYear: "2023",
+        endYear: "2025",
+        location: "Sofia, BG",
+        details:
+            "Professional training in developing interactive, responsive, and user-focused web applications using HTML, CSS, and JavaScript, working with REST APIs, SPA architecture, and modern front-end technologies.",
     },
     {
         id: "edu-2",
-        institution: "General Assembly",
+        institution: "Software University",
         degree: "Certificate",
-        field: "User Experience Design",
-        startYear: "2014",
-        endYear: "2014",
-        location: "San Francisco, CA",
+        field: "JavaScript Full-Stack Developer",
+        startYear: "2025",
+        endYear: "2026",
+        location: "Sofia, BG",
+        details:
+            "Professional training in developing full-stack web applications using JavaScript across both front end and back end, working with modern frameworks, REST APIs, databases, authentication, and scalable application architectures, with additional foundations in DevOps, including Git, CI/CD, containerization, Infrastructure as Code (IaC), and cloud technologies.",
     },
 ];
