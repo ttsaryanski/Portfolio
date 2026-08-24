@@ -1,7 +1,7 @@
 {
     "short_name": "Portfolio",
     "name": "Portfolio of Tsvetan Tsaryanski - JS FullStack Developer",
-    "start_url": "/",
+    "start_url": "/Portfolio/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#2c3e50",
