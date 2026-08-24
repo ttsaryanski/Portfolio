@@ -71,7 +71,7 @@ export const writing: Writing[] = [
         featured: true,
     },
     {
-        id: "write-2",
+        id: "write-22",
         title: "The Future of Design Tools: AI and Automation",
         publication: "UX Collective",
         date: "2023-11",
