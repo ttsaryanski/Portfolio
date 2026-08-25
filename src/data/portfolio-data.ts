@@ -28,36 +28,13 @@ export const personalInfo: PersonalInfo = {
 export const experience: Experience[] = [
     {
         id: "exp-1",
-        company: "Tech Innovators Inc",
-        role: "Senior Product Manager",
-        location: "San Francisco, CA",
-        startDate: "2021-03",
+        company: "PolyPress LTD",
+        role: "Offset Printing Press Operator",
+        location: "Gabrovo, BG",
+        startDate: "2010-10",
         endDate: null,
-        description:
-            "Led product strategy for flagship platform serving 2M+ active users, growing revenue by 150% YoY. Launched 3 major features that increased user engagement by 40% and reduced churn by 25%. Built and managed cross-functional team of 12 engineers, designers, and analysts. Defined product roadmap and OKRs aligned with company vision.",
+        description: "",
         current: true,
-    },
-    {
-        id: "exp-2",
-        company: "Growth Analytics Co",
-        role: "Product Manager",
-        location: "New York, NY",
-        startDate: "2018-06",
-        endDate: "2021-02",
-        description:
-            "Shipped 15+ product initiatives for B2B SaaS platform, increasing ARR by $5M. Led data-driven experimentation program running 50+ A/B tests annually. Collaborated with engineering and design to define and ship quarterly roadmap. Conducted extensive customer research informing product strategy and prioritization.",
-        current: false,
-    },
-    {
-        id: "exp-3",
-        company: "StartupXYZ",
-        role: "Associate Product Manager",
-        location: "Austin, TX",
-        startDate: "2015-01",
-        endDate: "2018-05",
-        description:
-            "First product hire, defined product vision and strategy from ground up. Built mobile app that reached #1 in category on Product Hunt with 100K+ downloads. Established product development processes including sprint planning and user feedback loops. Collaborated with founders on fundraising and go-to-market strategy.",
-        current: false,
     },
 ];
 
@@ -158,43 +135,122 @@ export const speaking: Speaking[] = [
 export const projects: Project[] = [
     {
         id: "proj-1",
-        name: "OpenDesign",
+        name: "PowerTrack",
         description:
-            "Open-source design system components library built with React and TypeScript. Used by 500+ projects worldwide.",
-        techStack: ["React", "TypeScript", "Storybook", "CSS-in-JS"],
-        liveUrl: "https://opendesign.example.com",
-        githubUrl: "https://github.com/example/opendesign",
+            "PowerTrack is a full-stack web application for managing and analyzing electricity bills, with tracking of energy consumption, costs, and statistics over time. The project also demonstrates DevOps practices such as Docker, Terraform, Ansible, CI/CD, Prometheus, and Grafana for automated deployment and monitoring.",
+        techStack: [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS 4",
+            "Prisma",
+            "PostgreSQL",
+            "Clerk",
+            "Recharts",
+            "Docker",
+            "Terraform",
+            "Ansible",
+            "Prometheus",
+            "Grafana",
+        ],
+        liveUrl: "https://powertrack.duckdns.org",
+        githubUrl:
+            "https://github.com/ttsaryanski/electricity-bills-archive-and-analytics",
         status: "active",
+        singlePage: true,
+        children: [],
     },
     {
         id: "proj-2",
-        name: "DesignTools API",
+        name: "Forum API",
         description:
-            "RESTful API for integrating design tools with project management platforms. Automates design handoff workflows.",
-        techStack: ["Node.js", "Express", "PostgreSQL", "Docker"],
-        githubUrl: "https://github.com/example/designtools-api",
+            "A RESTful backend application for managing users, categories, topics, and comments, featuring JWT authentication, RBAC, likes, and refresh tokens stored in cookies. It is built with Node.js, Express, and PostgreSQL, and also includes real-time chat using Socket.IO.",
+        techStack: [
+            "Node.js",
+            "Express",
+            "TypeScript",
+            "MongoDB",
+            "PostgreSQL",
+            "Socket.IO",
+            "Swagger",
+            "Docker",
+            "GCP",
+        ],
+        githubUrl: "https://github.com/ttsaryanski/Forum-API",
         status: "active",
+        singlePage: false,
+        children: [
+            {
+                id: "proj-2a",
+                name: "Forum Client",
+                description:
+                    "The Forum is a modern web application providing an intuitive interface for interacting with the Forum API. It allows users to browse categories and topics, create and manage discussions, post comments, like content, and communicate through real-time chat.",
+                techStack: ["React", "TypeScript", "Socket.IO"],
+                liveUrl: "https://forum-1ab65.web.app",
+                githubUrl: "https://github.com/ttsaryanski/Forum-Client",
+                status: "active",
+                singlePage: true,
+                children: [],
+            },
+        ],
     },
     {
         id: "proj-3",
-        name: "ColorPalette Generator",
+        name: "Mogilev33 API",
         description:
-            "Accessible color palette generator ensuring WCAG compliance. Generates harmonious color schemes with contrast checking.",
-        techStack: ["React", "WebGL", "Color Science"],
-        liveUrl: "https://colorpalette.example.com",
-        githubUrl: "https://github.com/example/color-palette",
+            "A REST backend for managing building/apartment property documents: protocols, invitations and offers, with authentication and file upload.",
+        techStack: [
+            "Node.js",
+            "Express",
+            "TypeScript",
+            "MongoDB",
+            "Swagger",
+            "Docker",
+            "GCP",
+        ],
+        githubUrl: "https://github.com/ttsaryanski/Mogilev33-API",
         status: "active",
+        singlePage: false,
+        children: [
+            {
+                id: "proj-3a",
+                name: "Mogilev33 Admin",
+                description:
+                    "Admin panel for document management of a condominium building.",
+                techStack: ["React"],
+                liveUrl: "https://mogilev33-admin.web.app",
+                githubUrl:
+                    "https://github.com/ttsaryanski/Mogilev33-Client-Admin",
+                status: "active",
+                singlePage: true,
+                children: [],
+            },
+            {
+                id: "proj-3b",
+                name: "Mogilev33 Client",
+                description:
+                    "A web application for communicating with residents of a condominium building. Residents can receive notifications about upcoming general meetings, access meeting minutes, repair proposals, and other important information related to the building.",
+                techStack: ["React"],
+                liveUrl: "https://mogilev33-b1d4b.web.app",
+                githubUrl: "https://github.com/ttsaryanski/Mogilev33-Client",
+                status: "active",
+                singlePage: true,
+                children: [],
+            },
+        ],
     },
-    {
-        id: "proj-4",
-        name: "Portfolio Template",
-        description:
-            "Free portfolio template for designers and developers. Includes dark mode, responsive design, and SEO optimization.",
-        techStack: ["Next.js", "Tailwind CSS", "MDX"],
-        liveUrl: "https://template.example.com",
-        githubUrl: "https://github.com/example/portfolio-template",
-        status: "archived",
-    },
+    // {
+    //     id: "proj-4",
+    //     name: "Portfolio Template",
+    //     description:
+    //         "Free portfolio template for designers and developers. Includes dark mode, responsive design, and SEO optimization.",
+    //     techStack: ["Next.js", "Tailwind CSS", "MDX"],
+    //     liveUrl: "https://template.example.com",
+    //     githubUrl: "https://github.com/example/portfolio-template",
+    //     status: "archived",
+    //     singlePage: false,
+    //     children: [],
+    // },
 ];
 
 export const education: Education[] = [

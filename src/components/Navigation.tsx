@@ -21,12 +21,35 @@ export default function Navigation(_props: NavigationProps) {
                         </span>
                     </div>
 
-                    <a
-                        href="#contact"
-                        className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold hover:text-muted-foreground transition-colors"
-                    >
-                        Contacts
-                    </a>
+                    <div className="nav flex items-center gap-6 sm:gap-8 md:gap-10">
+                        <a
+                            href="#work"
+                            className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold hover:text-muted-foreground transition-colors"
+                        >
+                            Experience
+                        </a>
+
+                        <a
+                            href="#education"
+                            className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold hover:text-muted-foreground transition-colors"
+                        >
+                            Education
+                        </a>
+
+                        <a
+                            href="#project"
+                            className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold hover:text-muted-foreground transition-colors"
+                        >
+                            My Projects
+                        </a>
+
+                        <a
+                            href="#contact"
+                            className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold hover:text-muted-foreground transition-colors"
+                        >
+                            Contacts
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>

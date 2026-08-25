@@ -8,6 +8,7 @@ import WorkSection from "@/components/sections/WorkSection";
 import EducationSection from "@/components/sections/EducationSection";
 import SkillsSection from "@/components/sections/SkillsSection";
 import ContactSection from "@/components/sections/ContactSection";
+import ProjectsPage from "../components/sections/ProjectSection";
 
 export default function Index() {
     useActiveSection(100);
@@ -16,8 +17,9 @@ export default function Index() {
             <Navigation />
             <HeaderSection />
             <AboutSection />
-            <EducationSection />
             <WorkSection />
+            <EducationSection />
+            <ProjectsPage />
             <SkillsSection />
             <ContactSection />
         </Layout>

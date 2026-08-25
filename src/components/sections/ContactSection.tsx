@@ -1,4 +1,5 @@
 import { personalInfo } from "@/data/portfolio-data";
+import SplitSection from "@/components/ui/split-section";
 
 /**
  * ContactSection Component
@@ -6,22 +7,23 @@ import { personalInfo } from "@/data/portfolio-data";
  */
 export default function ContactSection() {
     return (
-        <section
-            id="contact"
-            className="flex items-center px-8 md:px-16 lg:px-24 py-20 md:py-24"
-        >
+        <SplitSection title="Contacts" id="contact">
+            {/* <section
+                id="contact"
+                className="flex items-center px-8 md:px-16 lg:px-24 py-20 md:py-24"
+            > */}
             <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 lg:gap-32 items-center">
-                <div className="flex items-center justify-center lg:justify-end lg:pr-16 lg:border-r border-foreground/15">
+                {/* <div className="flex items-center justify-center lg:justify-end lg:pr-16 lg:border-r border-foreground/15">
                     <h2 className="text-section">Contacts</h2>
-                </div>
+                </div> */}
 
-                <div className="flex items-center lg:pl-16">
+                <div className="contact-reponsive flex items-center lg:pl-16">
                     <div className="space-y-6">
                         <div className="mb-10">
                             <img
                                 src={personalInfo.avatar}
                                 alt={personalInfo.name}
-                                className="w-48 h-64 object-cover"
+                                className="full w-48 h-64 object-cover"
                             />
                         </div>
 
@@ -50,7 +52,7 @@ export default function ContactSection() {
                             </a>
                         )}
 
-                        <div className="flex flex-row lg:pl-16">
+                        <div className="social flex flex-row justify-start">
                             <div className="space-y-6">
                                 <a
                                     href="https://linkedin.com/in/tsvetan-tsaryanski-765775327"
@@ -74,6 +76,7 @@ export default function ContactSection() {
                     </div>
                 </div>
             </div>
-        </section>
+            {/* </section> */}
+        </SplitSection>
     );
 }

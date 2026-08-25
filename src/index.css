@@ -51,6 +51,27 @@
 }
 
 /* Responsive text sizes - moved outside @theme for Tailwind v4 compatibility */
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .contact-reponsive {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .full {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   :root {
     --text-display: 5rem;
