@@ -1,5 +1,3 @@
-import { useActiveSection } from "@/hooks/useActiveSection";
-
 import Layout from "@/components/Layout";
 import Navigation from "@/components/Navigation";
 import HeaderSection from "@/components/sections/HeaderSection";
@@ -11,7 +9,6 @@ import ContactSection from "@/components/sections/ContactSection";
 import ProjectsPage from "../components/sections/ProjectSection";
 
 export default function Index() {
-    useActiveSection(100);
     return (
         <Layout>
             <Navigation />

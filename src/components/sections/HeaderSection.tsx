@@ -1,9 +1,5 @@
 import { personalInfo } from "@/data/portfolio-data";
 
-/**
- * HeaderSection Component
- * Split name layout with centered image
- */
 export default function HeaderSection() {
     const currentYear = new Date().getFullYear();
     const nameParts = personalInfo.name.split(" ");

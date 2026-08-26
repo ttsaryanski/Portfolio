@@ -1,8 +1,3 @@
-/**
- * Portfolio Type Definitions
- * TypeScript interfaces for portfolio data structures
- */
-
 export interface PersonalInfo {
     name: string;
     title: string;
@@ -26,29 +21,6 @@ export interface Experience {
     current: boolean;
 }
 
-export interface Writing {
-    id: string;
-    title: string;
-    publication: string;
-    date: string;
-    url: string;
-    contributors?: string[];
-    featured: boolean;
-}
-
-export interface Speaking {
-    id: string;
-    event: string;
-    date: string;
-    location: string;
-    talk: string;
-    description?: string;
-    url?: string;
-    recordingUrl?: string;
-    slidesUrl?: string;
-    upcoming: boolean;
-}
-
 export interface Project {
     id: string;
     name: string;
@@ -70,10 +42,4 @@ export interface Education {
     endYear: string;
     location: string;
     details?: string;
-}
-
-export interface SocialLink {
-    platform: string;
-    username?: string;
-    url: string;
 }
