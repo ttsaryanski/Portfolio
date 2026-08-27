@@ -91,7 +91,7 @@ export default function Navigation() {
                             </a>
 
                             <a
-                                href="#projects"
+                                href="#project"
                                 className="text-base font-semibold hover:text-muted-foreground transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >
