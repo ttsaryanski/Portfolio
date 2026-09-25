@@ -41,5 +41,6 @@ export interface Education {
     startYear: string;
     endYear: string;
     location: string;
+    credentials?: string;
     details?: string;
 }

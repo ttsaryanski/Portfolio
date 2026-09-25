@@ -225,23 +225,49 @@ export const education: Education[] = [
     {
         id: "edu-1",
         institution: "Software University",
-        degree: "Certificate",
+        degree: "Diploma",
         field: "Front-End Developer with JavaScript",
         startYear: "2023",
         endYear: "2025",
         location: "Sofia, BG",
+        credentials: "https://softuni.bg/certificates/details/246807/41f724b7",
         details:
             "Professional training in developing interactive, responsive, and user-focused web applications using HTML, CSS, and JavaScript, working with REST APIs, SPA architecture, and modern front-end technologies.",
     },
     {
         id: "edu-2",
         institution: "Software University",
-        degree: "Certificate",
+        degree: "Diploma",
         field: "JavaScript Full-Stack Developer",
         startYear: "2025",
         endYear: "2026",
         location: "Sofia, BG",
+        credentials: "https://softuni.bg/certificates/details/265650/8263edf9",
         details:
             "Professional training in developing full-stack web applications using JavaScript across both front end and back end, working with modern frameworks, REST APIs, databases, authentication, and scalable application architectures, with additional foundations in DevOps, including Git, CI/CD, containerization, Infrastructure as Code (IaC), and cloud technologies.",
+    },
+    {
+        id: "edu-3",
+        institution: "Software University",
+        degree: "Certificate",
+        field: "TypeScript",
+        startYear: "2025",
+        endYear: "2025",
+        location: "Sofia, BG",
+        credentials: "https://softuni.bg/certificates/details/245011/7fe262d0",
+        details:
+            "The training covers TypeScript fundamentals, including static typing, types, classes, interfaces, generics, modules, and decorators. It also focuses on applying these concepts in the development of a complete TypeScript application.",
+    },
+    {
+        id: "edu-4",
+        institution: "Software University",
+        degree: "Certificate",
+        field: "PostgreSQL",
+        startYear: "2025",
+        endYear: "2025",
+        location: "Sofia, BG",
+        credentials: "https://softuni.bg/certificates/details/251060/f826e283",
+        details:
+            "The training covers core PostgreSQL and database concepts, including relational models, ER diagrams, and SQL. It covers data manipulation, joins, aggregation, functions, procedures, transactions, and triggers, providing a solid foundation for working with databases in real-world applications.",
     },
 ];
