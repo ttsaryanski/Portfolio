@@ -31,7 +31,34 @@ export const experience: Experience[] = [
 
 export const projects: Project[] = [
     {
-        id: "proj-1",
+        id: "proj-7",
+        name: "Cocktails - Bar in Pocket",
+        description:
+            "Cocktails - Bar in Pocket is an Android app for discovering and searching for cocktail recipes.",
+        techStack: [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS 4",
+            "Prisma",
+            "PostgreSQL",
+            "Clerk",
+            "Recharts",
+            "Docker",
+            "Terraform",
+            "Ansible",
+            "Prometheus",
+            "Grafana",
+        ],
+        liveUrl:
+            "https://play.google.com/store/apps/details?id=com.ttsaryanski.cocktails",
+        githubUrl: "https://github.com/ttsaryanski/Cocktails",
+        status: "active",
+        singlePage: true,
+        children: [],
+    },
+    {
+        id: "proj-6",
         name: "PowerTrack",
         description:
             "PowerTrack is a full-stack web application for managing and analyzing electricity bills, with tracking of energy consumption, costs, and statistics over time. The project also demonstrates DevOps practices such as Docker, Terraform, Ansible, CI/CD, Prometheus, and Grafana for automated deployment and monitoring.",
@@ -58,7 +85,7 @@ export const projects: Project[] = [
         children: [],
     },
     {
-        id: "proj-2",
+        id: "proj-5",
         name: "Forum API",
         description:
             "A RESTful backend application for managing users, categories, topics, and comments, featuring JWT authentication, RBAC, likes, and refresh tokens stored in cookies. It is built with Node.js, Express, and PostgreSQL, and also includes real-time chat using Socket.IO.",
@@ -78,7 +105,7 @@ export const projects: Project[] = [
         singlePage: false,
         children: [
             {
-                id: "proj-2a",
+                id: "proj-5a",
                 name: "Forum Client",
                 description:
                     "The Forum is a modern web application providing an intuitive interface for interacting with the Forum API. It allows users to browse categories and topics, create and manage discussions, post comments, like content, and communicate through real-time chat.",
@@ -92,7 +119,7 @@ export const projects: Project[] = [
         ],
     },
     {
-        id: "proj-3",
+        id: "proj-4",
         name: "Mogilev33 API",
         description:
             "A REST backend for managing building/apartment property documents: protocols, invitations and offers, with authentication and file upload.",
@@ -110,7 +137,7 @@ export const projects: Project[] = [
         singlePage: false,
         children: [
             {
-                id: "proj-3a",
+                id: "proj-4a",
                 name: "Mogilev33 Admin",
                 description:
                     "Admin panel for document management of a condominium building.",
@@ -123,7 +150,7 @@ export const projects: Project[] = [
                 children: [],
             },
             {
-                id: "proj-3b",
+                id: "proj-4b",
                 name: "Mogilev33 Client",
                 description:
                     "A web application for communicating with residents of a condominium building. Residents can receive notifications about upcoming general meetings, access meeting minutes, repair proposals, and other important information related to the building.",
@@ -137,7 +164,7 @@ export const projects: Project[] = [
         ],
     },
     {
-        id: "proj-4",
+        id: "proj-3",
         name: "My REST API",
         description:
             "A multi-RESTapi that serves three different client applications: a collaborative cooking platform, a classroom management system, and a gaming application. It provides a single backend infrastructure with authentication, data management, and specific functionalities for each client.",
@@ -156,7 +183,7 @@ export const projects: Project[] = [
         singlePage: false,
         children: [
             {
-                id: "proj-4a",
+                id: "proj-3a",
                 name: "Cooking Together",
                 description:
                     "Recipe sharing platform with CRUD operations and user interactions.",
@@ -169,7 +196,7 @@ export const projects: Project[] = [
                 children: [],
             },
             {
-                id: "proj-4b",
+                id: "proj-3b",
                 name: "ClassBook",
                 description:
                     "Student and class managment system with authentication and role-based access control (RBAC).",
@@ -182,7 +209,7 @@ export const projects: Project[] = [
                 children: [],
             },
             {
-                id: "proj-4c",
+                id: "proj-3c",
                 name: "GamesPlay",
                 description:
                     "Gaming catalog with role-based access (admin section with statistics, role administration and publication managment).",
@@ -196,7 +223,7 @@ export const projects: Project[] = [
         ],
     },
     {
-        id: "proj-5",
+        id: "proj-2",
         name: "Weather App",
         description:
             "A simple weather forecast application built with React, providing current weather and a 5-day forecast for any city. Powered by the OpenWeatherMap API and deployed via Firebase Hosting.",
@@ -208,7 +235,7 @@ export const projects: Project[] = [
         children: [],
     },
     {
-        id: "proj-6",
+        id: "proj-1",
         name: "Calculator",
         description:
             "This project is a calculator built with React 19. It supports basic arithmetic operations, including percentage calculations.",
