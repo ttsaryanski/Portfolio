@@ -36,19 +36,13 @@ export const projects: Project[] = [
         description:
             "Cocktails - Bar in Pocket is an Android app for discovering and searching for cocktail recipes.",
         techStack: [
-            "Next.js",
             "React",
+            "React Native",
+            "Expo",
             "TypeScript",
             "Tailwind CSS 4",
-            "Prisma",
-            "PostgreSQL",
-            "Clerk",
-            "Recharts",
-            "Docker",
-            "Terraform",
-            "Ansible",
-            "Prometheus",
-            "Grafana",
+            "Appwrite",
+            "AsyncStorage",
         ],
         liveUrl:
             "https://play.google.com/store/apps/details?id=com.ttsaryanski.cocktails",
